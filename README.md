@@ -23,7 +23,7 @@ I'm an aspiring Frontend Developer from Georgia, currently based in Russia.
 
 - 🌱 **Currently learning:** HTML, CSS, Figma and Git while studying frontend development
 - ✨ **Passionate about** creating intuitive user interfaces from design mockups
-- ⚡ **Fun fact:** I enjoy bridging cultural perspectives between Georgia and Russia in tech communities
+- ⚡ **Fun fact:** I have a keen eye for clean, user-friendly interfaces and aesthetics
 - 📚 **Currently improving:** Problem-solving skills through coding challenges
 - 📫 **How to reach me:**  
   [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/elgiz1991) 
