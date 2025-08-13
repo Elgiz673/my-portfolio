@@ -4,6 +4,9 @@
     <a href="https://t.me/elgiz1991">
       <img src="https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram"/>
     </a>
+    <a href="https://instagram.com/eiubov.elgiz">
+      <img src="https://img.shields.io/badge/instagram-red?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram"/>
+    </a>
   </div>
   <img src="https://komarev.com/ghpvc/?username=Elgiz673&style=flat-square&color=blue" alt=""/>
   <h1>
