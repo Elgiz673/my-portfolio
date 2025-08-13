@@ -29,7 +29,7 @@ I'm an aspiring Frontend Developer from Georgia, currently based in Russia.
  ⚡ Fun fact: I have a keen eye for clean, user-friendly interfaces and aesthetics
 - 📚 Currently improving: Problem-solving skills through coding challenges
 - 📫 **How to reach me:**  
-  [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/elgiz1991) 
+  [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/elgiz1991)
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Elgiz673)
   [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/eiubov.elgiz)
 
@@ -51,6 +51,7 @@ I'm an aspiring Frontend Developer from Georgia, currently based in Russia.
 
 ### :fire: My Stats :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Elgiz673&theme=dark&background=000000)](https://git.io/streak-stats)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Elgiz673&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
