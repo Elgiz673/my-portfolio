@@ -28,6 +28,7 @@ I'm an aspiring Frontend Developer from Georgia, currently based in Russia.
 - 📫 **How to reach me:**  
   [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/elgiz1991) 
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Elgiz673)
+  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/eiubov.elgiz)
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
