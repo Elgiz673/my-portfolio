@@ -50,4 +50,5 @@ I'm an aspiring Frontend Developer from Georgia, currently based in Russia.
 
 ### :writing_hand: Blog Posts :
 <!-- BLOG-POST-LIST:START -->
+Exploring the art of frontend - sharing design discoveries and coding journeys soon 🌱
 <!-- BLOG-POST-LIST:END -->
