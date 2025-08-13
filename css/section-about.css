@@ -1,0 +1,32 @@
+/**********************************
+* Стили классов секции «Обо мне» *
+**********************************/
+.about-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0 0 0;
+  }
+  
+  .about-desc {
+    width: 70%;
+    margin: 40px 0 182px 0;
+    padding: 0;
+  }
+  
+  .about-photo {
+    width: 30vw;
+    height: 40vw;
+    margin: -10vw 0 76px 0;
+    padding: 0;
+    border: 3px solid #5dd9c8;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .about-photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }

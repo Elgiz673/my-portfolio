@@ -1,0 +1,64 @@
+/*************************
+* Стили меню навигации *
+*************************/
+html {
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    list-style: none;
+    width: 50%;
+    margin: 45px 0 45px 25%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-button {
+    font-family: "TildaSans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  
+  .contact-button {
+    border: 2px solid #ff9235;
+    padding: 9px 22px;
+    border-radius: 15px;
+    margin: 0;
+  }
+  
+  .contact-button:hover {
+    background-color: #ff9235;
+    color: #ffffff;
+    transition: background-color 1s ease 0s;
+    
+  }
+  
+  .contact-button-text {
+    font-family: "TildaSans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27px;
+    color: inherit;
+  }
+  
+  .contact-button-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

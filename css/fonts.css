@@ -1,0 +1,51 @@
+/***********************
+ * Шрифты *
+ ***********************/
+ @font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 300;
+    src: local("TildaSans-Light") url("../assets/fonts/TildaSans-Light.ttf");
+  }
+  
+  @font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 400;
+    src: local("TildaSans-Regular") url("../assets/fonts/TildaSans-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 500;
+    src: local("TildaSans-Medium")url("../assets/fonts/TildaSans-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 600;
+    src: local("TildaSans-Semibold") url("../assets/fonts/TildaSans-Semibold.ttf");
+  }
+  
+  @font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 700;
+    src: local("TildaSans-Bold") url("../assets/fonts/TildaSans-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 800;
+    src: local("TildaSans-ExtraBold") url("../assets/fonts/TildaSans-ExtraBold.ttf");
+  }
+  
+  @font-face {
+    font-family: TildaSans;
+    font-style: normal;
+    font-weight: 900;
+    src: local("TildaSans-Black") url("../assets/fonts/TildaSans-Black.ttf");
+  }

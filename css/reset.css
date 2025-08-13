@@ -1,0 +1,45 @@
+/**************************************
+* Отключение ненужного форматирования
+**************************************/
+body {
+    animation: myAnim 1s linear 0s 1 normal forwards;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #6083ff;
+  }
+  
+  @keyframes myAnim {
+      0% {
+          opacity: 0;
+          transform: translateY(-50px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button,
+  input,
+  textarea {
+    outline: none;
+    appearance: none;
+  }
+  
+  button:focus,
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }

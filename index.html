@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:locale" content="ru_RU" />
+    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <meta property="og:type" content="website" />
+    <title>Элгиз Эюбов - Demo Release</title>
+    <meta property="og:title" content="Портфолио" />
+    <meta name="description" content="Официальный сайт-портфолио веб-разработчика Эюбова Элгиза" />
+    <meta property="og:description" content="Разработка сайтов-визиток и рекламных лендингов" />
+    <meta name="keywords" content="портфолио, веб-разработчик, веб-дизайнер, сайты" />
+    <meta property="og:image" content="https://example.com/assets/img/preview.png" />
+    <meta property="og:image:alt" content="Описание изображения" />
+    <meta property="og:url" content="https://example.com/" />
+    <link rel="canonical" href="https://example.com/" />
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header-nav.css">
+    <link rel="stylesheet" href="css/section-main.css">
+    <link rel="stylesheet" href="css/section-about.css">
+    <link rel="stylesheet" href="css/section-skills.css">
+    <link rel="stylesheet" href="css/section-projects.css">
+    <link rel="stylesheet" href="css/section-form.css">
+    <link rel="stylesheet" href="css/section-reviews.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/agreement.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+</head>
+
+<!-- Навигация по разделам страницы -->
+
+<body>
+   
+
+        <nav>
+            <!-- Десктопное меню (видно на больших экранах) -->
+            <div class="desktop-menu">
+                <ul>
+                    <li><a class="nav-button color-black" href="#main">Главная</a></li>
+                    <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
+                    <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
+                    <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
+                </ul>
+                <div class="contact-button-container">
+                    <a class="contact-button color-orange" href="https://t.me/elgiz1991">
+                        <span class="contact-button-text">Связаться со мной</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Бургер-меню (видно только на мобильных) -->
+            <details class="burger-menu">
+                <summary class="burger-icon">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </summary>
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a class="nav-button color-black" href="#main">Главная</a></li>
+                        <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
+                        <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
+                        <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
+                    </ul>
+                    <div class="contact-button-container">
+                        <a class="contact-button color-orange" href="https://t.me/elgiz1991">
+                            <span class="contact-button-text">Связаться со мной</span>
+                        </a>
+                    </div>
+                </div>
+            </details>
+        </nav>
+
+
+    
+
+
+    <!-- Блок "Главная" -->
+    <main>
+        <section id="main" class="container">
+            <h1 class="big-header color-black">Элгиз Эюбов</h1>
+            <p class="main-desc desc-font color-black">
+                Разрабатываю сайты-визитки и рекламные лендинги
+            </p>
+            <img class="main-pic" src="./assets/images/main-screen.png" alt="Абстрактное изображение компьютерного монитора" />
+        </section>
+
+
+        <!-- Блок "Обо мне" -->
+        <section id="about" class="container">
+            <div class="about-details background-turquoise">
+                <h1 class="big-header color-black">Привет, я веб-разработчик</h1>
+                <p class="about-desc desc-font color-black">
+                    Меня зовут Элгиз Эюбов. Сейчас обучаюсь на курсе
+                    frontend-разработки, изучаю основы HTML и CSS, осваиваю вёрстку,
+                    работу с блоками и позиционированием, делаю первые шаги в профессии.
+                </p>
+            </div>
+            <figure class="about-photo">
+                <img src="./assets/images/me1.jpg" alt="Фотография автора портфолио">
+            </figure>
+        </section>
+
+
+        <!-- Блок "Навыки и стек" -->
+        <section id="skills" class="container">
+            <h1 class="big-header color-black">Навыки и стек технологий</h1>
+            <div class="skills-table">
+
+
+                <!-- Карточка: Разработка сайтов -->
+                <div class="skills-card">
+                    <section class="skills-card-section">
+                        <img class="skills-card-icon" src="./assets/icons/Development.svg" alt="Иконка програмный код" />
+                        <h2 class="skills-card-header color-black">Разработка сайтов</h2>
+                        <p class="skills-card-text color-black">
+                            Короткое общее описание навыков в разработке: фронтенд, бэкенд, базы данных, DevOps.
+                        </p>
+                    </section>
+                    <section class="skills-card-section">
+                        <h3 class="skills-card-subheader color-orange">Языки</h3>
+                        <ul class="skills-card-list color-black">
+                            <li>HTML, CSS...</li>
+                            <li>Дополните список</li>
+                        </ul>
+                        <h3 class="skills-card-subheader color-orange">Инструменты</h3>
+                        <ul class="skills-card-list color-black">
+                            <li>VS Code</li>
+                            <li>Github</li>
+                            <li>Git</li>
+                            <li>Дополните список</li>
+                        </ul>
+                    </section>
+                </div>
+
+
+                <!-- Карточка: Дизайн -->
+                <div class="skills-card">
+                    <section class="skills-card-section">
+                        <img class="skills-card-icon" src="./assets/icons/Design.svg" alt="Иконка кисть на фоне компьютера" />
+                        <h2 class="skills-card-header color-black">Дизайн</h2>
+                        <p class="skills-card-text color-black">Короткое общее описание навыков дизайна.</p>
+                    </section>
+                    <section class="skills-card-section">
+                        <h3 class="skills-card-subheader color-orange">Инструменты</h3>
+                        <ul class="skills-card-list color-black">
+                            <li>Figma</li>
+                            <li>Дополните список</li>
+                        </ul>
+                    </section>
+                </div>
+
+
+                <!-- Карточка: Soft skills -->
+                <div class="skills-card">
+                    <section class="skills-card-section">
+                        <img class="skills-card-icon" src="./assets/icons/SoftSkills.svg" alt="Иконка коммуникация" />
+                        <h2 class="skills-card-header color-black">Soft skills</h2>
+                        <p class="skills-card-text color-black">Короткое общее описание софт скиллов. Умение работать в
+                            команде и пр.</p>
+                    </section>
+                    <section class="skills-card-section">
+                        <h3 class="skills-card-subheader color-orange">Навыки</h3>
+                        <ul class="skills-card-list color-black">
+                            <li>Навык</li>
+                            <li>Навык</li>
+                            <li>Навык</li>
+                            <li>Навык</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Блок "Проекты" -->
+        <section id="projects" class="container">
+            <h1 class="big-header color-black">Проекты</h1>
+            <div class="projects-display">
+                <!-- Отдельные карточки с проектами -->
+
+                <figure class="projects-card">
+                    <!-- скриншот — теперь просто картинка, без ссылки -->
+                    <img src="./assets/images/first-project.png"
+                        alt="Скриншот первого проекта «Экскурсия по Санкт-Петербургу»" />
+
+                    <!-- оверлей, который появится при hover -->
+                    <figcaption class="card-overlay">
+                        <p class="card-desc">
+                            Сайт экскурсии по Санкт-Петербургу: знакомство с историей, культурой и главными достопримечательностями города.
+                        </p>
+
+                        <!-- Ссылка-перенаправление — теперь только на кнопке -->
+                        <a class="card-button" href="https://example.com" target="_blank" rel="noopener">
+                            Посмотреть сайт
+                        </a>
+                    </figcaption>
+                </figure>
+
+
+                <!-- Потом буду добавлять по мере появления работ -->
+                <figure class="projects-card">
+                    <!-- скриншот — теперь просто картинка, без ссылки -->
+                    <img src="./assets/images/coming_soon.png"
+                        alt="Проект будет добавлен позже" />
+
+                    <!-- оверлей, который появится при hover -->
+                    <figcaption class="card-overlay">
+                        <p class="card-desc">
+                            Проект будет добавлен позже
+                        </p>
+
+                        <!-- Ссылка-перенаправление — теперь только на кнопке -->
+                        <a class="card-button" href="#" target="" rel="noopener">
+                            Посмотреть сайт
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <!-- Потом буду добавлять по мере появления работ -->
+                <figure class="projects-card">
+                    <!-- скриншот — теперь просто картинка, без ссылки -->
+                    <img src="./assets/images/coming_soon.png"
+                        alt="Проект будет добавлен позже" />
+
+                    <!-- оверлей, который появится при hover -->
+                    <figcaption class="card-overlay">
+                        <p class="card-desc">
+                            Проект будет добавлен позже
+                        </p>
+
+                        <!-- Ссылка-перенаправление — теперь только на кнопке -->
+                        <a class="card-button" href="#" target="" rel="noopener">
+                            Посмотреть сайт
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <!-- Потом буду добавлять по мере появления работ -->
+                <figure class="projects-card">
+                    <!-- скриншот — теперь просто картинка, без ссылки -->
+                    <img src="./assets/images/coming_soon.png"
+                        alt="Проект будет добавлен позже" />
+
+                    <!-- оверлей, который появится при hover -->
+                    <figcaption class="card-overlay">
+                        <p class="card-desc">
+                            Проект будет добавлен позже
+                        </p>
+
+                        <!-- Ссылка-перенаправление — теперь только на кнопке -->
+                        <a class="card-button" href="#" target="" rel="noopener">
+                            Посмотреть сайт
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <!-- Потом буду добавлять по мере появления работ -->
+                <figure class="projects-card">
+                    <!-- скриншот — теперь просто картинка, без ссылки -->
+                    <img src="./assets/images/coming_soon.png"
+                        alt="Проект будет добавлен позже" />
+
+                    <!-- оверлей, который появится при hover -->
+                    <figcaption class="card-overlay">
+                        <p class="card-desc">
+                            Проект будет добавлен позже
+                        </p>
+
+                        <!-- Ссылка-перенаправление — теперь только на кнопке -->
+                        <a class="card-button" href="#" target="" rel="noopener">
+                            Посмотреть сайт
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <!-- Потом буду добавлять по мере появления работ -->
+                <figure class="projects-card">
+                    <!-- скриншот — теперь просто картинка, без ссылки -->
+                    <img src="./assets/images/coming_soon.png"
+                        alt="Проект будет добавлен позже" />
+
+                    <!-- оверлей, который появится при hover -->
+                    <figcaption class="card-overlay">
+                        <p class="card-desc">
+                            Проект будет добавлен позже
+                        </p>
+
+                        <!-- Ссылка-перенаправление — теперь только на кнопке -->
+                        <a class="card-button" href="#" target="" rel="noopener">
+                            Посмотреть сайт
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <!-- Потом буду добавлять по мере появления работ -->
+            </div>
+
+            <!-- Кнопка перехода на GitHub -->
+            <a class="projects-button color-orange" href="https://github.com/Elgiz673">
+                <span class="projects-button-text">Посмотреть на Github</span>
+            </a>
+        </section>
+
+
+        <!-- Блок формы обратной связи -->
+        <section id="form" class="container">
+            <div class="form-details container background-turquoise">
+                <h1 class="big-header color-black">Хотите заказать сайт?</h1>
+                <p class="form-details-text desc-font color-black">Напишите мне, чтобы обсудить детали.</p>
+            </div>
+
+            <div id="contact-form" class="form-container">
+                <img class="form-pic" src="./assets/images/form.png"
+                    alt="Абстрактное изображение компьютера и рук печатающих на клавиатуре" />
+                <form class="form">
+
+
+                    <!-- Ввод данных: имя и email -->
+                    <fieldset class="form-sender-data">
+                        <label class="form-field" for="name">
+                            <span class="form-label color-black">Имя</span>
+                            <input class="form-input color-black" type="text" name="name" />
+                        </label>
+                        <label class="form-field" for="email">
+                            <span class="form-label color-black">E-mail</span>
+                            <input class="form-input color-black" type="email" name="email" />
+                        </label>
+                    </fieldset>
+
+
+                    <!-- Текст задачи -->
+                    <fieldset class="form-text-body">
+                        <label class="form-field" for="body">
+                            <span class="form-label color-black">Расскажите про свою задачу</span>
+                            <textarea class="form-input color-black" name="body"></textarea>
+                        </label>
+                    </fieldset>
+
+
+                    <!-- Кнопка отправки формы -->
+                    <fieldset class="form-submit">
+                        <button class="form-button color-orange" type="submit">
+                            <span class="form-button-text">Отправить</span>
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+
+
+        <!-- Блок "Отзывы" -->
+        <section id="reviews" class="container">
+            <h1 class="big-header color-black">Отзывы</h1>
+            <p class="reviews-desc desc-font color-black">Люди, с которыми я работал, остаются довольны результатом.
+            </p>
+
+
+            <!-- Карточка с отзывом -->
+            <figure class="reviews-card">
+                <div class="reviews-photo">
+                    <img src="./assets/images/photo.png" alt="Фото автора отзыва" />
+                </div>
+                <figcaption class="reviews-caption">
+                    <p class="reviews-text color-black">«Текст отзыва»</p>
+                    <p class="reviews-info color-black">Имя Фамилия</p>
+                    <p class="reviews-info color-black">Компания, Город</p>
+                </figcaption>
+            </figure>
+
+
+            <!-- Переключатели отзывов -->
+            <div class="reviews-toggle">
+                <button class="reviews-toggle-button" type="button">
+                    <img class="reviews-toggle-arrow" src="./assets/icons/Arrow-L.svg" alt="Стрелка влево" />
+                    <img class="reviews-toggle-arrow icon-hover" src="./assets/icons/Arrow-L-white.svg" alt="Стрелка влево" />
+                </button>
+                <button class="reviews-toggle-button" type="button">
+                    <img class="reviews-toggle-arrow" src="./assets/icons/Arrow-R.svg" alt="Стрелка вправо" />
+                    <img class="reviews-toggle-arrow icon-hover" src="./assets/icons/Arrow-R-white.svg" alt="Стрелка вправо" />
+                </button>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Предложение к сотрудничеству -->
+    <aside id="letstalk" class="container">
+        <div class="letstalk-box">
+            <h2 class="letstalk-header">Договоримся о сотрудничестве</h2>
+            <p class="letstalk-text">
+                У вас есть идея проекта или предложение о работе?
+                Напишите мне. Я открыт к разным вариантам сотрудничества.
+            </p>
+            <div class="letstalk-button-container">
+                <a class="letstalk-button" href="#form">
+                    <span class="letstalk-button-text">Связаться с разработчиком</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+
+
+    <!-- Подвал сайта -->
+    <footer>
+
+        <!-- Иконки социальных сетей (ссылки) -->
+        <div class="footer-socials">
+            <a class="footer-social-container" href="https://t.me/elgiz1991">
+                <img class="footer-social-icon" src="./assets/icons/TG.svg" />
+                <img class="footer-social-icon icon-hover" src="./assets/icons/TG-white.svg" />
+            </a>
+            <a class="footer-social-container" href="https://habr.com/ru/users/example">
+                <img class="footer-social-icon" src="./assets/icons/Habr.svg" />
+                <img class="footer-social-icon icon-hover" src="./assets/icons/Habr-white.svg" />
+            </a>
+            <a class="footer-social-container" href="mailto:elgiz714@gmail.com">
+                <img class="footer-social-icon" src="./assets/icons/Email.svg" />
+                <img class="footer-social-icon icon-hover" src="./assets/icons/Email-white.svg" />
+            </a>
+        </div>
+
+
+
+        <!-- Информация об источниках изображений и иконок -->
+        <p class="footer-links color-black">
+            Изображения и иконки:
+            <a
+                href="https://ru.freepik.com/free-vector/software-integration-concept-illustration_18352184.htm#page=2&query=веб-разработка&position=7&from_view=search&track=sph">
+                Изображение-1 от Storyset на Freepik.
+            </a>
+            <a
+                href="https://ru.freepik.com/free-vector/code-typing-concept-illustration_10259340.htm#&position=12&from_view=author">
+                Изображение-2 от Storyset на Freepik.
+            </a>
+            <a href="https://www.flaticon.com/ru/free-icons/html" title="html иконки">
+                Иконка "Html" oT Frey Wazza a Flaticon.
+            </a>
+            <a href="https://www.flaticon.com/ru/free-icons/" title="телеграмма иконки">
+                Иконка «Телеграм» от Freepik на Flaticon.
+            </a>
+            <a href="https: //www.flaticon.com/ru/free-icons/" title="общение иконки">
+                Иконка «Общение» от Ilham Fitrotul Hayat на Flaticon.
+            </a>
+            <a href="https://www.flaticon.com/ru/free-icons/-" title="Дизайн сайта иконки">
+                Иконка «Дизайн сайта» от Freepik на Flaticon.
+            </a>
+            <a href="https://www.flaticon.com/ru/free-icons/-" title=" Эл. адрес иконки">
+                Иконка «Эл. адрес» от Those Icons a Flaticon.
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

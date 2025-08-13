@@ -1,0 +1,15 @@
+/* Переменные */
+
+
+
+:root {
+    --color-black: #141C3A;
+    --color-orange: #FF9235;
+    --color-turquoise: #5dd9c8;
+    --color-purple: #8063a6;
+    --color-white: #ffffff;
+  }
+  
+  .color-black { color: var(--color-black); }
+  .color-orange { color: var(--color-orange); }
+  .background-turquoise { background-color: var(--color-turquoise); }
