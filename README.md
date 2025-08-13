@@ -22,7 +22,7 @@
 I'm an aspiring Frontend Developer from Georgia, currently based in Russia.
 
 - 🌱 **Currently learning:** HTML, CSS, Figma and Git while studying frontend development
-- ✨ **Passionate about** creating intuitive user interfaces from design mockups
+- ✨ **Fascinated by:** Transforming design concepts into pixel-perfect websites
 - ⚡ **Fun fact:** I have a keen eye for clean, user-friendly interfaces and aesthetics
 - 📚 **Currently improving:** Problem-solving skills through coding challenges
 - 📫 **How to reach me:**  
