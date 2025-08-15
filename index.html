@@ -34,50 +34,49 @@
 
 <!-- Навигация по разделам страницы -->
 
-<body>
-   
+<body role="tabpanel" tabindex="0">
 
-        <nav>
-            <!-- Десктопное меню (видно на больших экранах) -->
-            <div class="desktop-menu">
+    <nav>
+        <!-- Десктопное меню (видно на больших экранах) -->
+        <div class="desktop-menu">
+            <ul>
+                <li><a class="nav-button color-black" href="#main">Главная</a></li>
+                <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
+                <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
+                <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
+            </ul>
+            <div class="contact-button-container">
+                <a class="contact-button color-orange" href="https://t.me/elgiz1991">
+                    <span class="contact-button-text">Связаться со мной</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Бургер-меню (видно только на мобильных) -->
+        <details class="burger-menu mobile-header">
+            <summary class="burger-icon">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </summary>
+            <div class="mobile-menu">
                 <ul>
                     <li><a class="nav-button color-black" href="#main">Главная</a></li>
                     <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
                     <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
                     <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
                 </ul>
-                <div class="contact-button-container">
-                    <a class="contact-button color-orange" href="https://t.me/elgiz1991">
-                        <span class="contact-button-text">Связаться со мной</span>
-                    </a>
-                </div>
             </div>
-
-            <!-- Бургер-меню (видно только на мобильных) -->
-            <details class="burger-menu">
-                <summary class="burger-icon">
-                    <span class="burger-line"></span>
-                    <span class="burger-line"></span>
-                    <span class="burger-line"></span>
-                </summary>
-                <div class="mobile-menu">
-                    <ul>
-                        <li><a class="nav-button color-black" href="#main">Главная</a></li>
-                        <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
-                        <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
-                        <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
-                    </ul>
-                    <div class="contact-button-container">
-                        <a class="contact-button color-orange" href="https://t.me/elgiz1991">
-                            <span class="contact-button-text">Связаться со мной</span>
-                        </a>
-                    </div>
-                </div>
-            </details>
-        </nav>
+        </details>
+        <div class="contact-button-container mobile-contact">
+            <a class="contact-button color-orange" href="https://t.me/elgiz1991">
+                <span class="contact-button-text">Связаться со мной</span>
+            </a>
+        </div>
+    </nav>
 
 
-    
+
 
 
     <!-- Блок "Главная" -->
@@ -87,7 +86,8 @@
             <p class="main-desc desc-font color-black">
                 Разрабатываю сайты-визитки и рекламные лендинги
             </p>
-            <img class="main-pic" src="./assets/images/main-screen.png" alt="Абстрактное изображение компьютерного монитора" />
+            <img class="main-pic" src="./assets/images/main-screen.png"
+                alt="Абстрактное изображение компьютерного монитора" />
         </section>
 
 
@@ -116,7 +116,8 @@
                 <!-- Карточка: Разработка сайтов -->
                 <div class="skills-card">
                     <section class="skills-card-section">
-                        <img class="skills-card-icon" src="./assets/icons/Development.svg" alt="Иконка програмный код" />
+                        <img class="skills-card-icon" src="./assets/icons/Development.svg"
+                            alt="Иконка програмный код" />
                         <h2 class="skills-card-header color-black">Разработка сайтов</h2>
                         <p class="skills-card-text color-black">
                             Короткое общее описание навыков в разработке: фронтенд, бэкенд, базы данных, DevOps.
@@ -142,7 +143,8 @@
                 <!-- Карточка: Дизайн -->
                 <div class="skills-card">
                     <section class="skills-card-section">
-                        <img class="skills-card-icon" src="./assets/icons/Design.svg" alt="Иконка кисть на фоне компьютера" />
+                        <img class="skills-card-icon" src="./assets/icons/Design.svg"
+                            alt="Иконка кисть на фоне компьютера" />
                         <h2 class="skills-card-header color-black">Дизайн</h2>
                         <p class="skills-card-text color-black">Короткое общее описание навыков дизайна.</p>
                     </section>
@@ -192,7 +194,8 @@
                     <!-- оверлей, который появится при hover -->
                     <figcaption class="card-overlay">
                         <p class="card-desc">
-                            Сайт экскурсии по Санкт-Петербургу: знакомство с историей, культурой и главными достопримечательностями города.
+                            Сайт экскурсии по Санкт-Петербургу: знакомство с историей, культурой и главными
+                            достопримечательностями города.
                         </p>
 
                         <!-- Ссылка-перенаправление — теперь только на кнопке -->
@@ -206,8 +209,7 @@
                 <!-- Потом буду добавлять по мере появления работ -->
                 <figure class="projects-card">
                     <!-- скриншот — теперь просто картинка, без ссылки -->
-                    <img src="./assets/images/coming_soon.png"
-                        alt="Проект будет добавлен позже" />
+                    <img src="./assets/images/coming_soon.png" alt="Проект будет добавлен позже" />
 
                     <!-- оверлей, который появится при hover -->
                     <figcaption class="card-overlay">
@@ -225,8 +227,7 @@
                 <!-- Потом буду добавлять по мере появления работ -->
                 <figure class="projects-card">
                     <!-- скриншот — теперь просто картинка, без ссылки -->
-                    <img src="./assets/images/coming_soon.png"
-                        alt="Проект будет добавлен позже" />
+                    <img src="./assets/images/coming_soon.png" alt="Проект будет добавлен позже" />
 
                     <!-- оверлей, который появится при hover -->
                     <figcaption class="card-overlay">
@@ -244,8 +245,7 @@
                 <!-- Потом буду добавлять по мере появления работ -->
                 <figure class="projects-card">
                     <!-- скриншот — теперь просто картинка, без ссылки -->
-                    <img src="./assets/images/coming_soon.png"
-                        alt="Проект будет добавлен позже" />
+                    <img src="./assets/images/coming_soon.png" alt="Проект будет добавлен позже" />
 
                     <!-- оверлей, который появится при hover -->
                     <figcaption class="card-overlay">
@@ -263,8 +263,7 @@
                 <!-- Потом буду добавлять по мере появления работ -->
                 <figure class="projects-card">
                     <!-- скриншот — теперь просто картинка, без ссылки -->
-                    <img src="./assets/images/coming_soon.png"
-                        alt="Проект будет добавлен позже" />
+                    <img src="./assets/images/coming_soon.png" alt="Проект будет добавлен позже" />
 
                     <!-- оверлей, который появится при hover -->
                     <figcaption class="card-overlay">
@@ -282,8 +281,7 @@
                 <!-- Потом буду добавлять по мере появления работ -->
                 <figure class="projects-card">
                     <!-- скриншот — теперь просто картинка, без ссылки -->
-                    <img src="./assets/images/coming_soon.png"
-                        alt="Проект будет добавлен позже" />
+                    <img src="./assets/images/coming_soon.png" alt="Проект будет добавлен позже" />
 
                     <!-- оверлей, который появится при hover -->
                     <figcaption class="card-overlay">
@@ -379,11 +377,13 @@
             <div class="reviews-toggle">
                 <button class="reviews-toggle-button" type="button">
                     <img class="reviews-toggle-arrow" src="./assets/icons/Arrow-L.svg" alt="Стрелка влево" />
-                    <img class="reviews-toggle-arrow icon-hover" src="./assets/icons/Arrow-L-white.svg" alt="Стрелка влево" />
+                    <img class="reviews-toggle-arrow icon-hover" src="./assets/icons/Arrow-L-white.svg"
+                        alt="Стрелка влево" />
                 </button>
                 <button class="reviews-toggle-button" type="button">
                     <img class="reviews-toggle-arrow" src="./assets/icons/Arrow-R.svg" alt="Стрелка вправо" />
-                    <img class="reviews-toggle-arrow icon-hover" src="./assets/icons/Arrow-R-white.svg" alt="Стрелка вправо" />
+                    <img class="reviews-toggle-arrow icon-hover" src="./assets/icons/Arrow-R-white.svg"
+                        alt="Стрелка вправо" />
                 </button>
             </div>
         </section>
@@ -459,5 +459,7 @@
         </p>
     </footer>
 </body>
+
+<!-- тест -->
 
 </html>
